@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Healify — Products</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="container navbar-inner">
+				<a class="brand" href="index.html">
+				<img src="imgs/logo.png" alt="Healify Logo" class="brand-logo" />
+				<span class="brand-text">Healify</span>
+				</a>
+				<div class="nav-links nav-center">
+					<a href="index.html">Home</a>
+					<a href="products.html" class="active">Products</a>
+					<a href="about-us.html">About</a>
+					<a href="contact-us.html">Contact</a>
+					<a href="feedback.html">Feedback</a>
+				</div>
+				<div class="nav-actions">
+					<a class="btn btn-outline" href="login.html">Sign in</a>
+					<a class="btn btn-primary" href="register.html">Create account</a>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<!-- Products -->
+			<section id="products" class="products">
+				<div class="container">
+					<div class="section-header">
+						<h2>Featured products</h2>
+						<p class="helper">Hand-picked daily health essentials</p>
+					</div>
+
+					<!-- Filters and Sort -->
+					<div class="products-controls">
+						<div class="dropdown">
+							<select class="dropdown-select" id="filterSelect">
+								<option value="">Filter by Category</option>
+								<option value="medications">Medications</option>
+								<option value="medical-devices">Medical Devices</option>
+								<option value="vitamins">Vitamins & Supplements</option>
+								<option value="personal-care">Personal Care</option>
+								<option value="cold-flu">Cold & Flu</option>
+								<option value="first-aid">First Aid</option>
+							</select>
+						</div>
+
+						<div class="dropdown">
+							<select class="dropdown-select" id="sortSelect">
+								<option value="">Sort by</option>
+								<option value="price-low">Price: Low to High</option>
+								<option value="price-high">Price: High to Low</option>
+								<option value="name-asc">Name: A to Z</option>
+								<option value="name-desc">Name: Z to A</option>
+									<option value="newest">Newest First</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="products-grid">
+						<!-- Product 1 -->
+						<div class="product-card">
+							<div class="product-media">
+								<span class="product-chip">Pain Relief</span>
+								<img class="product-img" src="imgs/product1.jpeg" alt="Box of Abimol Extra nonopioid analgesic" />
+							</div>
+							<div class="product-body">
+								<h3 class="product-title">Abimol Extra</h3>
+								<p class="product-desc">Nonopioid analgesic used as antipyretic, treatment of mild to moderate pain and peri-/postoperative management of pain.
+</p>
+								<div class="product-footer">
+									<span class="price">EGP 28</span>
+									<a class="btn btn-outline" href="#">View</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Product 2 -->
+						<div class="product-card">
+							<div class="product-media">
+								<span class="product-chip">Antibiotic</span>
+								<img class="product-img" src="imgs/product2.jpeg" alt="Box of Curam 1gm penicillin antibiotic" />
+							</div>
+							<div class="product-body">
+								<h3 class="product-title">Curam 1gm</h3>
+								<p class="product-desc">Antibiotic, belongs to the penicillin group used in the treatment of bacterial rhinosinusitis, pneumonia and otitis media. 
+</p>
+								<div class="product-footer">
+									<span class="price">EGP 100</span>
+									<a class="btn btn-outline" href="#">View</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Product 3 -->
+						<div class="product-card">
+							<div class="product-media">
+								<span class="product-chip">Vitamin</span>
+								<img class="product-img" src="imgs/product3.webp" alt="Box of Limitless Vitamin C 500mg 20 tablets" />
+							</div>
+							<div class="product-body">
+								<h3 class="product-title">LIMITLESS VITAMIN C 500 MG 20 TAB</h3>
+								<p class="product-desc">Non-drowsy antihistamine, 30 tablets</p>
+								<div class="product-footer">
+									<span class="price">EGP 45</span>
+									<a class="btn btn-outline" href="#">View</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Product 4 -->
+						<div class="product-card">
+							<div class="product-media">
+								<span class="product-chip">Hygiene</span>
+								<img class="product-img" src="imgs/product4.jpeg" alt="Bottle of NIVEA MEN Revitalising Body Lotion" />
+							</div>
+							<div class="product-body">
+								<h3 class="product-title">NIVEA MEN Revitalising Body Lotion</h3>
+								<p class="product-desc">Fast-read, flexible tip</p>
+								<div class="product-footer">
+									<span class="price">EGP 130</span>
+									<a class="btn btn-outline" href="#">View</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Product 5 -->
+						<div class="product-card">
+							<div class="product-media">
+								<span class="product-chip">Allergy</span>
+								<img class="product-img" src="imgs/product5.jpg" alt="Bottle of Oplex-N anti-cough expectorant syrup" />
+							</div>
+							<div class="product-body">
+								<h3 class="product-title">Oplex-N</h3>
+								<p class="product-desc">Anti-cough, antitussive and expectorant Syrup
+</p>
+								<div class="product-footer">
+									<span class="price">EGP 50</span>
+									<a class="btn btn-outline" href="#">View</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Product 6 -->
+						<div class="product-card">
+							<div class="product-media">
+								<span class="product-chip">Skin Care</span>
+								<img class="product-img" src="imgs/product6.webp" alt="StarVille Acne Prone Skin Facial Cleanser 100ml" />
+							</div>
+							<div class="product-body">
+								<h3 class="product-title">StarVille | Acne Prone Skin Facial Cleanser
+</h3>
+								<p class="product-desc">StarVille | Acne Prone Skin Facial Cleanser | 100ml
+
+</p>
+								<div class="product-footer">
+									<span class="price">EGP 80</span>
+									<a class="btn btn-outline" href="#">View</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer" id="contact">
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-section">
+					<h4>Healify</h4>
+						<p>Your trusted online pharmacy for quality medications and professional care.</p>
+					</div>
+					<div class="footer-section">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="contact-us.html" >Contact</a></li>							
+							<li><a href="feedback.html">Feedback</a></li>						
+						</ul>
+					</div>
+					<div class="footer-section">
+						<h4>Support</h4>
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Service</a></li>
+							<li><a href="#">FAQs</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom">
+				<p>&copy; <span id="year">2025</span> Healify. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+	</html>

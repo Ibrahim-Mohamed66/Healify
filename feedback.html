@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Healify — Feedback</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="container navbar-inner">
+				<a class="brand" href="homePage-product.html">
+					<img src="imgs/logo.png" alt="Healify Logo" class="brand-logo" />
+					<span class="brand-text">Healify</span>
+				</a>
+				<div class="nav-links nav-center">
+					<a href="homePage-product.html">Home</a>
+					<a href="homePage-product.html#products">Products</a>
+					<a href="about-us.html">About</a>
+					<a href="contact-us.html">Contact</a>
+					<a href="feedback.html" class="active">Feedback</a>
+				</div>
+				<div class="nav-actions">
+					<a class="btn btn-outline" href="login.html">Sign in</a>
+					<a class="btn btn-primary" href="register.html">Create account</a>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<!-- Page Header -->
+			<section class="hero">
+				<div class="container">
+					<div class="hero-card">
+						<div>
+							<h1>Share Your Feedback</h1>
+							<p>Your opinion matters! Help us improve our pharmacy services and customer experience.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Feedback Form Section -->
+			<section class="about-section feedback-form-section">
+				<div class="container">
+					<div class="section-header">
+						<h2>Feedback Form</h2>
+						<p class="helper">Tell us what you think about our services</p>
+					</div>
+					<div class="feedback-form-wrapper">
+						<form class="feedback-form">
+							<div class="form-group">
+								<label for="name">Full Name *</label>
+								<input type="text" id="name" name="name" required />
+							</div>
+							<div class="form-group">
+								<label for="email">Email Address *</label>
+								<input type="email" id="email" name="email" required />
+							</div>
+							<div class="form-group">
+								<label for="phone">Phone Number</label>
+								<input type="tel" id="phone" name="phone" />
+							</div>
+							<div class="form-group">
+								<label for="rating">Overall Rating *</label>
+								<select id="rating" name="rating" required>
+									<option value="">Select a rating</option>
+									<option value="excellent">⭐⭐⭐⭐⭐ Excellent</option>
+									<option value="good">⭐⭐⭐⭐ Good</option>
+									<option value="satisfactory">⭐⭐⭐ Satisfactory</option>
+									<option value="fair">⭐⭐ Fair</option>
+									<option value="poor">⭐ Poor</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="category">Feedback Category *</label>
+								<select id="category" name="category" required>
+									<option value="">Select a category</option>
+									<option value="products">Products & Selection</option>
+									<option value="delivery">Delivery Service</option>
+									<option value="pricing">Pricing</option>
+									<option value="website">Website Experience</option>
+									<option value="customer-service">Customer Service</option>
+									<option value="pharmacy-staff">Pharmacy Staff</option>
+									<option value="quality">Product Quality</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="feedback">Your Feedback *</label>
+								<textarea id="feedback" name="feedback" rows="6" placeholder="Tell us your thoughts, suggestions, or concerns..." required></textarea>
+							</div>
+							<div class="form-group">
+								<label for="recommendation">Would you recommend us to others?</label>
+								<div class="radio-group">
+									<label class="radio-label">
+										<input type="radio" name="recommendation" value="yes" />
+										<span>Yes, definitely!</span>
+									</label>
+									<label class="radio-label">
+										<input type="radio" name="recommendation" value="maybe" />
+										<span>Maybe</span>
+									</label>
+									<label class="radio-label">
+										<input type="radio" name="recommendation" value="no" />
+										<span>No</span>
+									</label>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit Feedback</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- Benefits Section -->
+			<section class="about-section feedback-benefits-section">
+				<div class="container">
+					<div class="section-header">
+						<h2>Why Your Feedback Matters</h2>
+					</div>
+					<div class="feedback-benefits-grid">
+						<div class="benefit-card">
+							<div class="benefit-icon">🎯</div>
+							<h3>Improve Our Services</h3>
+							<p>Your feedback helps us identify areas where we can better serve you and your healthcare needs.</p>
+						</div>
+						<div class="benefit-card">
+							<div class="benefit-icon">💡</div>
+							<h3>Develop New Features</h3>
+							<p>Great ideas from our customers inspire us to innovate and add new features to our platform.</p>
+						</div>
+						<div class="benefit-card">
+							<div class="benefit-icon">🤝</div>
+							<h3>Build Trust</h3>
+							<p>We value your opinion and use it to build a better pharmacy experience for the entire community.</p>
+						</div>
+						<div class="benefit-card">
+							<div class="benefit-icon">🏆</div>
+							<h3>Recognition</h3>
+							<p>Your feedback is important to us, and we appreciate customers who help us maintain our high standards.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-section">
+						<h4>Healify</h4>
+						<p>Your trusted online pharmacy for quality medications and professional care.</p>
+					</div>
+					<div class="footer-section">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><a href="homePage-product.html">Home</a></li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="contact-us.html">Contact</a></li>
+							<li><a href="feedback.html">Feedback</a></li>
+						</ul>
+					</div>
+					<div class="footer-section">
+						<h4>Support</h4>
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Service</a></li>
+							<li><a href="#">FAQs</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p>&copy; <span id="year">2025</span> Healify. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

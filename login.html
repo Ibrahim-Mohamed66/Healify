@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Healify — Sign In</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="auth-page">
+      <section class="auth-card" aria-labelledby="login-title">
+        <header class="card-header">
+          <h1 id="login-title">Welcome back</h1>
+          <p class="subtitle">Sign in to your pharmacy account</p>
+        </header>
+        <div class="card-body">
+          <form action="#" method="post">
+            <div class="field">
+              <label for="email">Email address</label>
+              <input class="input" type="email" id="email" name="email" placeholder="Enter your Email" required />
+            </div>
+
+            <div class="field">
+              <label for="password">Password</label>
+              <input class="input" type="password" id="password" name="password" placeholder="••••••••" minlength="6" required />
+            </div>
+
+            <button class="btn btn-primary" type="submit">Sign In</button>
+          </form>
+        </div>
+        <p class="alt-action">Don't have an account? <a href="register.html">Create one</a></p>
+      </section>
+    </main>
+  </body>
+  </html>

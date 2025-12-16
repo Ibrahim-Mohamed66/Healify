@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Healify — Create Account</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="auth-page">
+      <section class="auth-card" aria-labelledby="register-title">
+        <header class="card-header">
+          <h1 id="register-title">Create your account</h1>
+          <p class="subtitle">Join to manage prescriptions and orders</p>
+        </header>
+        <div class="card-body">
+          <form action="#" method="post" novalidate>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input class="input" type="text" id="name" name="name" placeholder="Enter Your full name" required />
+            </div>
+
+            <div class="field">
+              <label for="reg-email">Email address</label>
+              <input class="input" type="email" id="reg-email" name="email" placeholder="Enter your Email" required />
+            </div>
+
+            <div class="field">
+              <label for="reg-password">Password</label>
+              <input class="input" type="password" id="reg-password" name="password" placeholder="Create a password" minlength="6" required />
+            </div>
+
+            <div class="field">
+              <label for="confirm-password">Confirm password</label>
+              <input class="input" type="password" id="confirm-password" name="confirm_password" placeholder="Re-enter your password" minlength="6" required />
+            </div>
+
+            <button class="btn btn-primary" type="submit">Create Account</button>
+          </form>
+        </div>
+        <p class="alt-action">Already have an account? <a href="login.html">Sign in</a></p>
+      </section>
+    </main>
+  </body>
+  </html>
